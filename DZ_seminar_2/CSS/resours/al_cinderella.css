@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'AL Cinderella';
+	src: url('../fonts/al_cinderella.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/al_cinderella.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/al_cinderella.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/al_cinderella.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/al_cinderella.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/al_cinderella.svg#al_cinderella') format('svg'); /* Chrome < 4, Legacy iOS */
+}
