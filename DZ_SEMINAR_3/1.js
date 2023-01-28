@@ -14,13 +14,13 @@
 
 
 const temperatur = Number.parseFloat(prompt("Введите температуру в градусах Цельсия :"));
-if (isNaN(temperatur)){      // проверка на ввод числа, но если буквы в конце, то не работает
-    alert(`Введите число!`); 
+if (Number.isNaN(temperatur)) {      // проверка на ввод числа, но если буквы в конце, то не работает
+    alert(`Введите число!`);
 }
-else{
+else {
     alert(`Цельсий: ${temperatur}, Фаренгейт: ${CelsiusFahrenheit(temperatur)}`);
 }
 function CelsiusFahrenheit(celsius) {
-    const fahrenheit = +(((9 / 5 )* celsius + 32).toFixed(3)); // округление до 3 знака 
+    const fahrenheit = +(((9 / 5) * celsius + 32).toFixed(3)); // округление до 3 знака 
     return fahrenheit;
 }
