@@ -26,7 +26,7 @@ $skills = [
 $workExperience = [
 	[
 		'name_1' => 'Front End Developer',
-        'gettingStarted' => 'Jan 2015 - ',
+        'gettingStarted' => 'Jan 2015  ',
         'endOfWork' => 'present time',
         'description' => 'Lorem ipsum dolor sit amet. 
         Praesentium magnam consectetur vel in deserunt 
@@ -36,7 +36,7 @@ $workExperience = [
 	],
     [
 		'name_1' => 'Web Developer / something.com',
-        'gettingStarted' => 'Mar 2012 - ',
+        'gettingStarted' => 'Mar 2012  ',
         'endOfWork' => 'Dec 2014',
         'description' => 'Consectetur adipisicing elit. 
         Praesentium magnam consectetur vel in deserunt 
@@ -45,7 +45,7 @@ $workExperience = [
 	],
     [
 		'name_1' => 'Graphic Designer / designsomething.com',
-        'gettingStarted' => 'Jun 2010 - ',
+        'gettingStarted' => 'Jun 2010  ',
         'endOfWork' => 'Mar 2012',
         'description' => 'Lorem ipsum dolor sit amet, consectetur 
         adipisicing elit.' 
@@ -138,7 +138,7 @@ $workExperience = [
               <h5 class="w3-opacity"><b><?=$workExperience[$i]['name_1']?></b></h5>
               <h6 class="w3-text-teal">
                 <i class="fa fa-calendar fa-fw w3-margin-right"></i>
-                <?=$workExperience[$i]['gettingStarted']?>
+                <?=$workExperience[$i]['gettingStarted']?>-
                 <?php if($i ==0 ): ?>
                   <span class="w3-tag w3-teal w3-round">
                     <?=$workExperience[$i]['endOfWork']?>

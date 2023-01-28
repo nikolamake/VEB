@@ -20,4 +20,4 @@ INSERT INTO GROUPMATES (names, age, adress) VALUES ('Евгений', '27', 'М�
 INSERT INTO GROUPMATES (names, age, adress) VALUES ('Сергей', '23', 'Орёл');
 
 -- -- fetch 
-SELECT names FROM GROUPMATES WHERE (age >= 18 AND age < 30) AND adress = 'Москва' ;
+SELECT names FROM GROUPMATES WHERE age >= 18 AND age < 30 AND adress = 'Москва';
